@@ -1,0 +1,49 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Prueba",
+        "description": "",
+        "id": "prueba;prueba",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27714866653,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Ir a openbank",
+            "match": {
+              "location": "PruebaStep.java:13"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@a"
+          }
+        ]
+      }
+    ],
+    "name": "Prueba",
+    "description": "",
+    "id": "prueba",
+    "keyword": "Feature",
+    "uri": "src/test/features/test.feature",
+    "tags": [
+      {
+        "name": "@a",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
