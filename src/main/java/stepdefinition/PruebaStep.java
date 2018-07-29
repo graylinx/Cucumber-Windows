@@ -16,7 +16,7 @@ public class PruebaStep implements En {
             System.setProperty("webdriver.gecko.driver", FileSystems.getDefault().getPath("src/main/resources/geckodriver.exe").toAbsolutePath().toString());
             System.setProperty("webdriver.firefox.bin", "C:\\\\Program Files\\\\Mozilla Firefox\\\\firefox.exe");
             WebDriver driver = new FirefoxDriver(new FirefoxOptions());
-            driver.get("https://priocualb001.aws.openbank.es");
+            driver.get("https://pubstglbr001.aws.ok-cloud.net/");
         });
     }
 }
